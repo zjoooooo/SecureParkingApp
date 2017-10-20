@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CheckVersion_url">http://119.73.147.11/SecureParking/updateinfo.html</string>  
+    <string name="SerivceReportLogin_url">http://119.73.147.11/SecureParking/servlet/login?</string>  
+    <string name="SubmitSR_url">http://119.73.147.11/SecureParking/servlet/SubmitSR</string>  
+</resources>

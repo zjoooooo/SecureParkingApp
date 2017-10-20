@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage2background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/securetext"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:singleLine="false"
+            android:text="Secure Parking is an world leader in car park management and innovation company founded in 1979." />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="110dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:padding="5dip"
+            android:src="@drawable/home2background2" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/securetext"
+                android:layout_marginTop="10dip"
+                android:text="   As the leading car park operator in Australia,Singapore ,Indonesia,New Zealand,Malaysia,China,India,United Kingdom,Lebanon and the UAE,we are maximising the performance of car parks and changing the way people think about parking-all over the world."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                style="@style/securetext"
+                android:layout_marginTop="20dip"
+                android:text="  With more than 250 Secure Parking car parks in Singapore and an range of parking products to choose from.Secure Parking has a convenient parking solution for you" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/poiuytr1"
+                    style="@style/securetext"
+                    android:text="  For more details,to visit our website,please click button as below" />
+
+                <ImageView
+                    android:id="@+id/website"
+                    android:layout_width="40dip"
+                    android:layout_height="38dip"
+                    android:layout_below="@id/poiuytr1"
+                    android:src="@drawable/ie" 
+                    android:layout_centerInParent="true"/>
+                
+              
+                
+                
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

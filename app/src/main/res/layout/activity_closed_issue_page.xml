@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <ImageView
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Solved Case"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="#E7E7E7"
+         >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+             >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_CarPark"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:text="CarPark"
+                    android:textColor="#000000" 
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/tv_Station"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:text="Station"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_ReportTime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:text="ReportTime"
+                android:textColor="#000000" 
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/tv_DoneTime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:text="Done Time"
+                android:textColor="#000000" 
+                android:textSize="17sp"/>
+
+
+
+                <TextView
+                    android:id="@+id/tv_Reporter"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:text="Reporter"
+                     android:padding="5dp"
+                    android:textColor="#000000"
+android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/tv_Solver"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:text="Solver"
+                          android:padding="5dp"
+                    android:textColor="#000000" 
+                    android:textSize="17sp"/>
+    
+
+
+
+                <TextView
+                    android:id="@+id/tv_lastupdater"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:text="lastupdater"
+                    android:textColor="#000000" 
+                          android:padding="5dp"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/tv_DownTime"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:text="DownTime"
+                          android:padding="5dp"
+                    android:textColor="#000000" 
+                    android:textSize="17sp"/>
+ 
+
+            <TextView
+                android:id="@+id/tv_Issue"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:gravity="top|left"
+                android:padding="5dp"
+                android:text="Issue"
+                android:textColor="#000000" 
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/tv_Solution"
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:gravity="top|left"
+                android:padding="5dp"
+                android:text="Solution"
+                android:textColor="#000000" 
+                android:textSize="17sp"/>
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:text="Return"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

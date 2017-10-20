@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Jake Wharton
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="#0093D1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/im_home_login"
+            android:layout_width="8dip"
+            android:layout_height="30dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:src="@drawable/home_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="SECURE PARKING SINGAPORE"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/goformap"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dip"
+            android:layout_weight="1"
+            android:background="#0093D1"
+            android:scaleType="fitEnd"
+            android:src="@drawable/mapicon" />
+    </LinearLayout>
+    
+    <com.viewpagerindicator.TitlePageIndicator
+        android:id="@+id/home1_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+<!-- 
+  <LinearLayout
+        android:id="@+id/alternate_view_group"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:orientation="vertical"
+        android:alpha="0" />
+ -->
+  
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_pager1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

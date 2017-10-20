@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/card"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_closedissue_carpark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"
+        android:singleLine="true"
+        android:text="A11A15"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_closedissue_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:singleLine="true"
+        android:text="ID:18712"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/tv_closedissue_station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:singleLine="true"
+            android:text="ENTRY1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_closedissue_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_closedissue_station"
+            android:layout_below="@id/tv_closedissue_station"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="15dip"
+            android:text="Barrier broken need to fix by contractordwdwidjwdiwjdw"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_closedissue_solution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_closedissue_station"
+            android:layout_below="@id/tv_closedissue_content"
+            android:layout_marginBottom="20dip"
+            android:singleLine="true"
+            android:text="contractordwdwidjwdiwjdwjdiwjdwjdowjdowjodjwodjwodjwojwodjwojwdojwodjwodjwdoj,djwojwdojwodjwodjwdojdjwojwdojwodjwodjwdojdjwojwdojwodjwodjwdoj"
+            android:textColor="#36A803"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_closedissue_reporttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:singleLine="true"
+        android:text="2014-09-10 12:33:34"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tv_Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:singleLine="true"
+        android:text="Status: Closed"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+</LinearLayout>

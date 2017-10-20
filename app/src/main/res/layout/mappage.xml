@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="80dip"
+        android:layout_marginRight="80dip"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal"
+         >
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:background="#ffffff"
+            android:hint="Search"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center" 
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_normal"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignBottom="@id/map"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:alpha="0.4"
+        android:background="@drawable/map_normal"
+        android:gravity="center"
+        android:padding="10dip" />
+
+    <Button
+        android:id="@+id/btn_satelite"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignBaseline="@+id/btn_normal"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@+id/btn_normal"
+        android:alpha="0.4"
+        android:background="@drawable/map_satl"
+        android:gravity="center"
+        android:padding="10dip" />
+
+    <Button
+        android:id="@+id/btn_traffic"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignBaseline="@+id/btn_normal"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@+id/btn_satelite"
+        android:alpha="0.4"
+        android:background="@drawable/map_traffic"
+        android:gravity="center"
+        android:padding="10dip" />
+
+    <ImageView
+        android:id="@+id/im_maplogo"
+        android:layout_width="40dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginBottom="10dip"
+        android:layout_alignBottom="@id/map"
+        android:layout_toRightOf="@+id/btn_traffic"
+        android:adjustViewBounds="true"
+        android:alpha="0.4"
+        android:gravity="center"
+        android:src="@drawable/securelogo"/>
+
+</RelativeLayout>
