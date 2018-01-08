@@ -11,17 +11,16 @@
     android:orientation="horizontal"
     android:padding="2dip"
     >
-    
-    <EditText android:id="@+id/edtx_search"
-    android:layout_width="280dip"
-    android:layout_height="match_parent"
-	android:hint="CP Code/User/Issue"
-	android:background="@drawable/edittext_bg"
-	android:singleLine="true"
-	android:padding="2dip"
-	android:layout_marginLeft="10dip"
-    >    
-    </EditText>
+
+        <EditText
+            android:id="@+id/edtx_search"
+            android:layout_width="280dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/edittext_bg"
+            android:hint="CarPark/Attender/Issue/Priority"
+            android:padding="2dip"
+            android:singleLine="true"></EditText>
     
     <Button android:layout_width="wrap_content"
         android:layout_height="fill_parent"

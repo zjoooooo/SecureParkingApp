@@ -433,6 +433,7 @@ public class Fragment1 extends Fragment implements IXListViewListener {
 			map.put("AttendBy", jsonObject.getString("AttendBy"));
 			map.put("Status", jsonObject.getString("Status"));
 			map.put("BO", jsonObject.getString("BO"));
+			map.put("Priority",jsonObject.getString("Priority"));// new add Piority
 			lis.add(map);
 		}
 		return lis;

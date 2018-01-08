@@ -1,9 +1,7 @@
 package com.secureparking.techfg;
 
-import java.util.HashMap;
-import java.util.List;
-import com.secureparking.sr.R;
 import android.content.Context;
+import android.graphics.Color;
 import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +9,11 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.secureparking.sr.R;
+
+import java.util.HashMap;
+import java.util.List;
 
 public class MyListViewAdp1 extends BaseAdapter {
 
@@ -71,11 +74,18 @@ public class MyListViewAdp1 extends BaseAdapter {
 		TextView tv_reporter = (TextView) view.findViewById(R.id.tv_reporter);
 		TextView tv_attender = (TextView) view.findViewById(R.id.tv_attender);
 		TextView tv_status = (TextView) view.findViewById(R.id.tv_status);
+		TextView tv_priority = (TextView) view.findViewById(R.id.tv_priority);
 
 		HashMap<String, String> newInfo = list.get(position);
 		tv_caprark.setText(newInfo.get("Carpark"));
 		tv_station.setText(newInfo.get("Station"));
 		tv_reporttime.setText("Report Time: " + newInfo.get("ReportTime"));
+		tv_priority.setText("Piority: "+newInfo.get("Priority"));  // new add piority
+		if(newInfo.get("Priority").equals("Audit")){
+			tv_priority.setTextColor(Color.RED);
+		}
+
+
 		tv_issue.setText(newInfo.get("Issue"));
 		tv_id.setText("ID: " + newInfo.get("ID"));
 		tv_reporter.setText("Report by: " + newInfo.get("Reportby"));

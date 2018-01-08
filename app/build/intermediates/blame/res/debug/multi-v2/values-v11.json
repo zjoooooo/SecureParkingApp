@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\admin\\AndroidStudioProjects\\SR1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-11.4.0.aar\\079e3ed89eeaf6379181ab7ed2fcd0ff\\res\\values-v11\\values.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-11.4.0.aar\\8041c39ba28464e0051a19c09c8930f7\\res\\values-v11\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -42,26 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\materialize-1.0.3.aar\\bac88a0fc19ab38a62bc5b4d41b09c7e\\res\\values-v11\\values-v11.xml",
-                    "from": {
-                        "startLines": "2,8,12,17,23,27,36,41,45,49",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,331,615,915,1215,1511,1933,2245,2421,2609",
-                        "endLines": "7,11,16,22,26,35,40,44,48,52",
-                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "326,610,910,1210,1506,1928,2240,2416,2604,2816"
-                    },
-                    "to": {
-                        "startLines": "83,89,93,98,104,108,117,122,126,130",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5776,6052,6336,6636,6936,7232,7654,7966,8142,8330",
-                        "endLines": "88,92,97,103,107,116,121,125,129,133",
-                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "6047,6331,6631,6931,7227,7649,7961,8137,8325,8537"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\6989795d05dc35c21805b7912fe75920\\res\\values-v11\\values-v11.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\b9fe85e3219b7df4aebf754d7ca28911\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,43,47,48,52,56,57,61,66,71,76,78,80,81,82,136,191",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -77,6 +58,25 @@
                         "endLines": "10,16,22,28,34,40,41,45,49,50,54,58,59,63,68,73,78,80,82,134,135,189,244,245",
                         "endColumns": "12,12,12,12,12,12,88,12,12,100,12,12,102,12,12,12,12,12,12,70,82,12,12,90",
                         "endOffsets": "606,1031,1459,1885,2312,2737,2826,3072,3321,3422,3674,3929,4032,4285,4693,5113,5535,5642,5771,8608,8691,12716,16884,16975"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\materialize-1.0.3.aar\\4bdc75e9ce0bbfda303f1c8434a02659\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,8,12,17,23,27,36,41,45,49",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,331,615,915,1215,1511,1933,2245,2421,2609",
+                        "endLines": "7,11,16,22,26,35,40,44,48,52",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "326,610,910,1210,1506,1928,2240,2416,2604,2816"
+                    },
+                    "to": {
+                        "startLines": "83,89,93,98,104,108,117,122,126,130",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5776,6052,6336,6636,6936,7232,7654,7966,8142,8330",
+                        "endLines": "88,92,97,103,107,116,121,125,129,133",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "6047,6331,6631,6931,7227,7649,7961,8137,8325,8537"
                     }
                 }
             ]

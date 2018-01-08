@@ -4,7 +4,24 @@
             "outputFile": "C:\\Users\\admin\\AndroidStudioProjects\\SR1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.0.aar\\57ea18525da2186945225825debf2c7b\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\cb318a6eb01491bd7c8da6a9f56e0e05\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,124",
+                        "endColumns": "68,68",
+                        "endOffsets": "119,188"
+                    },
+                    "to": {
+                        "startLines": "20,21",
+                        "startColumns": "4,4",
+                        "startOffsets": "1289,1358",
+                        "endColumns": "68,68",
+                        "endOffsets": "1353,1422"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.0.aar\\abd33da1978397dd092a1056951c471b\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,51 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\6989795d05dc35c21805b7912fe75920\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\materialdrawer-5.9.5.aar\\3404221c5a995db3f8e412e053e79810\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "63",
-                        "endOffsets": "114"
-                    },
-                    "to": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "1170",
-                        "endColumns": "63",
-                        "endOffsets": "1229"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\f5d02ec6fcd6695b4055f6970283b116\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,124",
-                        "endColumns": "68,68",
-                        "endOffsets": "119,188"
-                    },
-                    "to": {
-                        "startLines": "20,21",
-                        "startColumns": "4,4",
-                        "startOffsets": "1289,1358",
-                        "endColumns": "68,68",
-                        "endOffsets": "1353,1422"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\materialize-1.0.3.aar\\bac88a0fc19ab38a62bc5b4d41b09c7e\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\materialize-1.0.3.aar\\4bdc75e9ce0bbfda303f1c8434a02659\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -81,6 +54,33 @@
                         "startOffsets": "1234",
                         "endColumns": "54",
                         "endOffsets": "1284"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\b9fe85e3219b7df4aebf754d7ca28911\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\materialdrawer-5.9.5.aar\\1368523107d435f6de557b959f6a978d\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "1170",
+                        "endColumns": "63",
+                        "endOffsets": "1229"
                     }
                 }
             ]

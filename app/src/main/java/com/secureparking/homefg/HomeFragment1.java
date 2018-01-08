@@ -165,7 +165,6 @@ public class HomeFragment1 extends Fragment implements OnPageChangeListener {
 							} else {
 								msg.what = FAILED;
 							}
-
 						}
 						handler.sendMessage(msg);
 					}
